@@ -33,6 +33,6 @@ function iLoveTheBeatles(num) {
 
   do {
     arr.push("I love the Beatles!")
-  } while (incrementVariable() < num);
+  } while (incrementVariable() < num && incrementVariable < 15);
 return arr;
 }
