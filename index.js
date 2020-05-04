@@ -2,10 +2,10 @@
 function theBeatlesPlay(musicians, instruments) {
   var arr = [];
   var music = musicians.length;
-  var instr = instruments.length;  
-  
+  var instr = instruments.length;
+
   for (let num = 0; num <= music; num++) {
     arr.push(musicians[num] + instruments[num]);
   }
-  return arr; 
+  return arr;
 }
