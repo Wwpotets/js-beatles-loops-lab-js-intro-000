@@ -16,6 +16,7 @@ function johnLennonFacts(array) {
   const num = 0;
 
   while (array.length > num) {
-    arr.push(array[])
+    arr.push(array[num])
+    num++;
   }
 }
